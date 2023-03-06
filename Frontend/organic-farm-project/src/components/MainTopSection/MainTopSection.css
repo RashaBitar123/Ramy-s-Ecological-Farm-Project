@@ -1,24 +1,211 @@
-.video-style{
-    object-fit: cover;
-    width: 100vw;
-    height: 70vh;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    position: relative;
-  
-    
+.maintopsection-container 
+{
+  position: relative;
+}
+
+.image
+{
+ max-width: 100%;
+ height: 80%; 
+ padding: 3%;
+} 
+
+.mainimage
+{
+  max-width: 100%;
+  height: 80%; 
+  padding: 3%; 
+}
+
+.logo
+{
+  width: 10%;
+  top:4%;
+  left:5%;
+  position: absolute;
+}
+
+.title
+{
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  top: 5%;
+  right: 30%;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family:Brush Script MT,Brush Script Std,cursive;
+}
+
+@media only screen and (max-width: 1300px) 
+{
+  .title {font-size: 80px; right: 25%;}
+  .sidebar{width: 250px;}
+  .sidebarIconToggle{top: 75px;} 
+  .logo{top:5%}
+}
+@media only screen and (max-width: 1230px) 
+{
+  .title {font-size: 80px; right: 20%;}
+}
+
+@media only screen and (max-width: 1100px)
+{
+  .title {font-size: 70px;right:22%;}
+  .sidebarIconToggle{top: 60px;}
+  .sidebar{width: 250px;}
+}
+
+@media only screen and (max-width: 1000px) 
+{
+ .title {font-size: 60px;right: 23%;top: 6%;}
+ .sidebarIconToggle{top: 55px;} 
+ .logo{ width: 12%;}
+ .sidebar{width: 240px;}
+
+}
+@media only screen and (max-width: 900px) {
+  .title {right: 24%;font-size:55px}
+  .sidebarIconToggle{top: 50px;} 
+  .logo{ width: 12%;}
+  .menu-item-link 
+  {font-size: 30px;}
+  .menu-item 
+  {margin-top: 5%;}
+  .sidebar{width: 220px;}
+ } 
+ @media only screen and (max-width: 850px) 
+ {
+  .title {right: 25%;font-size:50px}
+  .sidebarIconToggle{top: 43px; width:55px;} 
+  .logo{ width: 12%;}
+  .menu-item-link 
+  {font-size: 25px;}
+  .menu-item 
+  {margin-top: 5%;}
+  .sidebar{width: 180px;}
+ }  
+ @media only screen and (max-width: 800px) 
+ {
+  .title {right: 27%;font-size:45px}
+  .sidebarIconToggle{top: 30px; width:55px;} 
+  .logo{ width: 12%;}
+  .menu-item-link 
+  {font-size: 25px;}
+  .menu-item 
+  {margin-top: 5%;}
+  .sidebar{width: 180px;}
+ }  
+
+ @media only screen and (max-width: 750px) {
+  .title {right: 27%;top:7%;font-size:40px}
+  .sidebarIconToggle{top: 30px; width:50px;} 
+  .logo{ width: 12%;}
+  .menu-item-link{font-size: 20px;}
+  .menu-item {margin-top: 5%;}
+  .sidebar{width: 180px;}
+ }
+ @media only screen and (max-width: 700px) {
+  .title {right: 27%;top:7%;font-size:40px}
+  .sidebarIconToggle{top: 40px; width:50px;} 
+  .logo{ width: 12%;}
+  .menu-item-link{font-size: 20px;}
+  .menu-item {margin-top: 5%;}
+  .sidebar{width: 180px;}
+  .horizontal{margin-top: 7px;}
+  .diagonal.part-2{margin-top: 7px;}
+ }
+
+ @media only screen and (max-width: 650px) {
+    .title {font-size: 35px;}
+    .logo{ width: 14%; }
+    .sidebarIconToggle{top:35px; width:50px;} 
+    .menu-item-link {font-size: 20px;}
+    .menu-item {margin-top: 5%;}
+    .sidebar{width: 180px;}
+ }
+ @media only screen and (max-width: 600px) 
+ {
+  .title {font-size: 32px;}
+  .logo{ width: 13%; }
+  .sidebarIconToggle{top:32px; width:40px;right:40px} 
+  .horizontal{margin-top: 6px;}
+  .diagonal.part-2{margin-top: 6px;}
+ }
+
+ @media only screen and (max-width: 550px)
+{
+  .title {font-size: 32px;right: 23%;}
+  .logo{ width: 13%; }
+  .sidebarIconToggle{top:30px; width:35px;right:40px} 
+  .horizontal{margin-top: 6px;}
+  .diagonal.part-2{margin-top: 6px;}
+  .image{height: 70%;}
+  .mainimage{height: 70%;}
+ }
+ @media only screen and (max-width: 500px)
+ {
+   .title {font-size: 28px;right: 26%;top:5%}
+   .logo{ width: 13%;top: 4%; }
+   .sidebarIconToggle{top:10px; width:35px;right:40px} 
+   .horizontal{margin-top: 6px;}
+   .diagonal.part-2{margin-top: 6px;}
+   .image{height: 60%;}
+   .mainimage{height: 60%;}
   }
-  
-  .title-on-video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: white;
-    z-index: -1;
-    
-  
-  }
-  
+
+ @media only screen and (max-width: 450px)
+ {
+  .title {right:29%;font-size: 25px;top: 5%;}
+  .logo{ width: 12%; top: 4%;}
+  .sidebarIconToggle{top:5px; width:30px;right:45px} 
+  .horizontal{margin-top: 5px;}
+   .diagonal.part-2{margin-top: 5px;}
+   .image{height: 50%;}
+   .mainimage{height: 50%;}
+ }
+
+ @media only screen and (max-width: 420px)
+ {
+  .title {right:10%;top:20%;font-size:40px;}
+  .logo{ width: 14%;top:4%;}
+  .sidebarIconToggle{top:15;width:30px;right:35px} 
+  .sidebar{width: 140px;}
+  .image{height: 45%;}
+  .mainimage{height: 45%;}
+ }
+
+ @media only screen and (max-width: 380px)
+ {
+  .title {right:12%;top:22%;font-size:35px;}
+  .logo{ width: 14%;top:5%; }
+  .sidebarIconToggle{top:3px;width:30px;right:35px} 
+  .sidebar{width: 300px;}
+  .horizontal{margin-top: 4px;}
+  .diagonal.part-2{margin-top: 4px;}
+   .image{height: 40%;}
+  .mainimage{height: 40%;} 
+ }
+
+  @media only screen and (max-width: 340px)
+ {
+  .title {font-size:30px;right:14%;}
+  .logo{  width: 16%;top:5%;  }
+  .sidebarIconToggle{top:4px; width:30px;right:30px} 
+  .sidebar{width: 200px;}
+  .horizontal{margin-top: 4px;}
+  .diagonal.part-2{margin-top: 4px;}
+  /* .image{height: 50%;}
+  .mainimage{height: 50%;} */
+ }  
+ @media only screen and (max-width: 320px)
+ {
+  .title {font-size:30px;right:10%;}
+  .logo{  width: 16%;top:5%;  }
+  .sidebarIconToggle{top:3px; width:30px;right:30px} 
+  .sidebar{width: 200px;}
+  .horizontal{margin-top: 4px;}
+  .diagonal.part-2{margin-top: 4px;}
+  /* .image{height: 50%;}
+  .mainimage{height: 50%;} */
+ }  

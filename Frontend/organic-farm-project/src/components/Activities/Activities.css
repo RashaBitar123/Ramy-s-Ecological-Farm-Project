@@ -1,0 +1,86 @@
+.activities-title
+{
+  text-align: center;
+  font-size: 100px;
+  color:hsl(80, 28%, 52%);
+  font-family:'Times New Roman', Times, serif;
+    margin-top: 10%;
+}
+.item-container
+ {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    color: rgb(97, 60, 60);
+
+    margin-top: 5%;
+    font-size: 15px;
+
+  }
+  .card 
+  {
+    width:420px;
+    border-radius: 5px;
+    box-shadow: rgba(148, 188, 29, 0.2) 0px 2px 8px 0px; 
+    position: absolute;
+
+  }
+  h3{
+    text-align: center;
+  }
+  p{
+    text-align:center;
+  }
+  img 
+  {
+    width: 100%;
+  }
+  @media only screen and (max-width:1300px)
+  {
+    .activities-title{
+      font-size: 80px;
+    }
+  }
+  @media only screen and (max-width:1100px)
+  {
+    .activities-title{
+      font-size: 70px;
+    }
+  }
+  @media only screen and (max-width:900px)
+  {
+    .activities-title{
+      font-size: 60px;
+    }
+  }
+  @media only screen and (max-width:900px)
+  {
+    .activities-title{
+      font-size: 50px;
+    }
+  }
+  @media only screen and (max-width:600px)
+  {
+    .activities-title{
+      font-size: 45px;
+    }
+  }
+  @media only screen and (max-width:500px)
+  {
+    .activities-title{
+      font-size: 40px;
+    }
+  }
+@media only screen and (max-width:400px)
+{
+  .activities-title{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width:350px)
+{
+  .activities-title{
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "title": "Agricultural Workshops",
+        "description": "We offer workshops about ecological farming,sustainable agriculture,mushroom farming,composting etc…",
+        "image": "/AgriWorkshops-Image.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Animal Production",
+        "description": "Visitors can experience dealing with different kinds of animals and practice with them several activities, such as feeding,gazing,egg picking and all necessary product processing.",
+        "image": "/AnimalProduction-Image.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Pick and Eat",
+        "description": "Visitors can experience picking fresh fruits,vegetables and products in the farm and prepare their unique kind of food.",
+        "image": "/Pick&Eat-Image.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Aquaponics",
+        "description": "Visitors can have the experience to interact with friendly fish , learn about the basics of aquaponics and to test the existing planted samples.",
+        "image": "/Aquaponics-Image.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Hydroponics",
+        "description": "The farm has a high-tech hydroponics system.It produces continuously with very high standards and quality.",
+        "image": "/Hydroponics-Image.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Camping-Bonfire",
+        "description": "You are most welcome to have family and friends gatherings around the bonfire, and spend quality time in our space.You can also take a tent, sleep and experience the unique sunrise.",
+        "image": "/Bonfire-Image.jpeg"
+    },{
+        "id": 7,
+        "title": "Guesthouse",
+        "description": "Our ecological guesthouse shares interior experience similar to the exterior, with an integration of natural engraved stone with greenery.",
+        "image": "/GuestHouse-Image.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Guided Tours-Hiking",
+        "description": "The farm is located beside many hiking trails and beautiful natural scenery, where you can benefit from the support of our local guides.",
+        "image": "/Hiking-Image.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "Traditional Healthy Meals",
+        "description": "You can experience our delicious meals collected originally from the farmland with a wide variety of dishes to meet all tastes and preferences.",
+        "image": "/TraditionalMeal-Image.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Agri-Food Processing",
+        "description": "We offer a variety of organic and healthy agrofood products from our farm produced with love and care to satisfy all your standards",
+        "image": "/AgriFood-Image.jpeg"
+    },
+    {
+        "id": 11,
+        "title": "Sitting Area-Workplace",
+        "description": "Our comfortable spaces are always available for anyone interested to work in a natural environment or to spend some relaxing and healthy time.",
+        "image": "/Space-Image.jpeg"
+    },
+    {
+        "id": 12,
+        "title": "Technical and Agricultural Research ",
+        "description": "Our land will be available for researchers, university student, and agricultural student to have their research done, you can benefits from a detailed explanation about Ecological farming in addition to a calm place to work.",
+        "image": "/Research-Image.jpeg"
+    }
+]

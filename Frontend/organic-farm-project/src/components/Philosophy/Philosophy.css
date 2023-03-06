@@ -1,0 +1,162 @@
+.philosophy-container
+{
+    margin-top: 10%;
+}
+.philosophy-image1
+{
+    width:40%;
+    padding: 3%;
+    padding-left: 0%;
+}
+.philosophy-item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+    margin-top: 3%;
+}
+.philosophy-title
+{
+    text-align: center;
+    font-size: 100px;
+    color:hsl(80, 28%, 52%);
+    font-family:'Times New Roman', Times, serif;
+}
+.philosophy-description
+{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:start;
+    border-style: none;
+    background-color: #8fa662;
+     padding: 2%; 
+}
+@media only screen and (max-width:1300px)
+{
+ .philosophy-description
+ {
+    font-size: 20px; 
+ }
+ .philosophy-title
+ {
+    font-size: 80px;
+ }
+}
+
+@media only screen and (max-width:1100px)
+{
+ .philosophy-description
+ {
+    font-size: 15px; 
+ }
+ .philosophy-title
+ {
+    font-size: 70px;
+ }
+}
+@media only screen and (max-width:1000px)
+{
+ .philosophy-description
+ {
+    font-size: 14px; 
+ }
+ .philosophy-title
+ {
+    font-size: 70px;
+ }
+}
+
+
+@media only screen and (max-width:900px)
+{
+ .philosophy-description
+ {
+    font-size: 14px; 
+ }
+ .philosophy-title
+ {
+    font-size: 60px;
+ }
+}
+
+@media only screen and (max-width:800px)
+{
+ .philosophy-description
+ {
+    font-size: 14px; 
+ }
+ .philosophy-title
+ {
+    font-size: 50px;
+ }
+.philosophy-item
+{
+ display: flex; 
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width:550px)
+{
+ .philosophy-description
+ {
+    font-size: 11px; 
+ }
+ .philosophy-title
+ {
+    font-size: 40px;
+ }
+.philosophy-item
+{
+ display: flex; 
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width:450px)
+{
+ .philosophy-description
+ {
+    font-size: 10px; 
+ }
+ .philosophy-title
+ {
+    font-size: 35px;
+ }
+.philosophy-item
+{
+ display: flex; 
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+}
+
+@media only screen and (max-width:350px)
+{
+ .philosophy-description
+ {
+    font-size: 9px; 
+ }
+ .philosophy-title
+ {
+    font-size: 30px;
+ }
+.philosophy-item
+{
+ display: flex; 
+ flex-wrap: wrap;
+ flex-direction: column;
+}
+
+}
+
+
+
+
+

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ZiWNdF4W4EVN0ZkomanaAOZKS9Nj9v8FKB57/WCy2P8=",
+  "Source": "Rami-Eco-Farm",
+  "BasePath": "_content/Rami-Eco-Farm",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Rami-Eco-Farm\\wwwroot",
+      "Source": "Rami-Eco-Farm",
+      "ContentRoot": "C:\\Users\\Lenovo\\Downloads\\Ramy's Ecological Farm Project\\Backend\\Rami-Eco-Farm\\Rami-Eco-Farm\\wwwroot\\",
+      "BasePath": "_content/Rami-Eco-Farm",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

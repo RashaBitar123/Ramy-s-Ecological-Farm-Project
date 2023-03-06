@@ -1,0 +1,15 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .create-button {
+    margin-bottom: 30px !important ;
+    margin-right: 30px !important ;
+  }
+.main-title{
+    font-size: 80px ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  } 
+  
