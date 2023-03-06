@@ -51,7 +51,7 @@ function ContactUs(){
       />
     </a>
   
-    <a href="https://www.facebook.com/profile.php?id=100063501643335&mibextid=ZbWKwL">
+    <a href="https://www.facebook.com/Ramys-Ecological-Farm-117416577944367/">
       <img
         className="socialmedia-fb-icon"
         src={Facebook}
@@ -65,7 +65,7 @@ function ContactUs(){
         alt="Tiktok"
       />
     </a>
-    <a href="https://instagram.com/ramys_ecological_farm?igshid=ZmRlMzRkMDU=">
+    <a href="https://instagram.com/ramysecologicalfarmofficial?igshid=YmMyMTA2M2Y=">
       <img
         className="socialmedia-insta-icon"
         src={Instagram}
